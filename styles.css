@@ -1,0 +1,112 @@
+body {
+    background-image: url("https://t3.ftcdn.net/jpg/03/67/52/06/360_F_367520678_TZRDQeSPwO86lnp4uuQJYJSkeBat2g3M.jpg");
+    opacity: 0.9;
+}
+
+main {
+    font-family: caraque;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+
+.serif {
+    font-family: serif;
+}
+
+.logo-font {
+    font-family: cursive;
+    font-size: 18px;
+}
+
+.title-font {
+    font-family: EB Garamond;
+}
+
+
+.white {
+    color: #999
+}
+
+form {
+    background: #FFF;
+    display: flex;
+    flex-direction: column;
+    padding: 2vw 4vw;
+    width 90%;
+    max-width:600px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+
+form h3
+{
+    font-size: 22px;
+    color: #121212;
+    font-weight: bold;
+}
+
+form input, form textarea {
+    border: 0;
+    margin: 10px 0;
+    padding: 10px;
+    outline: none;
+    background: #F5F5F5;
+    font-size:12px;
+}
+
+form button {
+    padding: 12px;
+    background:
+    font-size: 13px;
+    border: 0;
+    outline: none;
+    coursor: pointer;
+    width: 80px;
+    margin: 20px auto 0;
+    border-radius: 10px;
+}
+
+footer {
+    opacity: 0.5;
+}
+
+nav {
+    opacity: 0.8;
+}
+
+.ach_title {
+    text-align: center;
+    color: #FFF;
+    font-weight: bold;
+    font-size: 20px;
+    opacity: 80%;
+}
+
+.ach_image {
+    object-fit: cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+}
+
+.ach_image:hover {
+    opacity: 50%;
+}
+
+.list {
+    background-color: rgba(0,0,0,0.1);
+    color: #FFF;
+    font-size: 13px;
+}
+
+.but {
+    float: right;
+}
+
+form {
+    opacity: 0.8;
+}
