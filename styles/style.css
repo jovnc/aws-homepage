@@ -1,0 +1,46 @@
+body {
+    color: var(--text);
+    background-color: var(--background);
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.navbar {
+    background-color: var(--background);
+    border-bottom: 0.2px solid;
+
+}
+
+.nav-link {
+    color: var(--text);
+    cursor: pointer;
+}
+
+.navbar-brand {
+    color: var(--text);
+    font-weight: bold;
+}
+
+.light-mode {
+    --text: rgb(31, 30, 30);
+    --background: rgb(239, 239, 241);
+    --primary: rgb(192, 153, 53);
+    --secondary: rgb(186, 8, 8);
+    --accent: rgb(6, 0, 194);
+  }
+  
+.dark-mode {
+    --text: rgb(225, 224, 224);
+    --background: rgb(14, 14, 16);
+    --primary: rgb(202, 163, 63);
+    --secondary: rgb(247, 69, 69);
+    --accent: rgb(68, 61, 255);
+}
+
+#theme-icon {
+    width: 30px;
+    cursor: pointer;
+}
+
+#contacts, #education-cert, #experiences, #skills, #main, #projects, #contact {
+    padding-top: 60px;
+}

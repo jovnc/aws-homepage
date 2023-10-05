@@ -49,42 +49,57 @@
 
 
 
-    <!-- Main Body-->
 
-
-    <div id="main">
-        <div class="container-fluid" style="padding-top: 100px;">
-            <h2 class="text-center white"> Welcome to my
-                <h1 class="text-center white title-font">WEBSITE</h1></h2>
+    <!--Projects-->
+    <div id="projects">
+        <div class="container-fluid mt-3">
+            <h2 class="text-center title-font"> Projects</h2>
         </div>
 
-        <div class="container-fluid mt-5">
-            <div class="row">
-                <div class="col white">
-                    <img class="rounded mx-auto d-block pb-5"src="https://static.freeimages.com/images/home/filetypes/photo.png" alt="Photo of Me"/>
+        <div class="container mt-4">
+          <h4 class="serif" style="color: #EEE; font-weight:bold;">
+              Wikipedia Page Analysis</h4>
+          <p class="serif">
+            Web application that prompts users for a search term and scrapes the wikipedia page to generate a wordcloud and table showing the most frequently occurring words in the wikipedia page. A Python project made with the Flask web framework deployed on an AWS EC2 instance using Gunicorn on Ubuntu and Nginx as a reverse proxy.        
+          </p>
+          <img src="./images/wiki.png" alt="wiki" class="img-fluid">
 
-                </div>
-                <div class="col white" style="margin-right: 50px;">
-                    <p> Hi, my name is Jovan. I am a 20 year old male who is going to finish my National Service and preparing for
-                        university. I developed this simple static website when I was taking the CS50x course in 2022 to note my journey in Computer Science. Since then, I have learnt many new concepts and technologies, which I will update here from time to time.
-                    </p>
-                    <p>
-                        Take a look around my website to learn more about me as a person, as well as my skillsets.
-                    </p>
-                    <div style="float: right; margin-top: 20px;">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-              <p class="text-center">
-                <span id="counter-number">Unable to display views</span>
-              </p>
-            </div>
+
+          <div class="container d-flex justify-content-center p-3">
+            <a class="btn-outline-secondary btn mx-3" href="https://github.com/jovnc/wiki-word-analysis">View Code</a>
+          </div>
         </div>
+
+        <div class="container mt-4">
+          <h4 class="serif" style="color: #EEE; font-weight:bold;">
+              CLI Chatbot</h4>
+          <p class="serif">
+            Python Command Line Interface (CLI) Chatbot powered using OpenAI GPT3.5 API, that interacts with users and can also help to perform simple tasks such as translation. Made initially for CS50P course       
+          </p>
+
+          <div class="container d-flex justify-content-center p-3">
+            <a class="btn-outline-secondary btn mx-3" href="https://github.com/jovnc/cli-chatbot">View Code</a>
+          </div>
+        </div>
+
+        <div class="container mt-4">
+          <h4 class="serif" style="color: #EEE; font-weight:bold;">
+              My Cloud Resume</h4>
+          <p class="serif">
+            Static web application that showcases my life experience till date that I update from time to time. A HTML project with CSS made initially for the CS50x course, hosted using static website hosting on an AWS S3 bucket.     
+          </p>
+
+          <div class="container d-flex justify-content-center p-3">
+            <a class="btn-outline-secondary btn mx-3" href="https://github.com/jovnc/homepage">View Code</a>
+          </div>
+        </div>
+
+      </div>
+
     </div>
 
     <!--Bootstrap Footer-->
-    <div class="container fixed-bottom">
+    <div class="container">
       <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
         <div class="col-md-4 d-flex align-items-center">
           <span class="mb-3 mb-md-0" style="font-size: 0.8rem;">© 2023 Jovan's Cloud Resume</span>
@@ -104,7 +119,6 @@
 
     <!--Scripts-->
     <script src="./scripts/script.js"></script>
-    <script src="./scripts/index.js"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 </body>
